@@ -1,0 +1,54 @@
+########## GOLANG MONGODB PROJECT ##########
+go mod init github.com/winnerboy7/golang-mongodb
+
+go get github.com/spf13/viper
+
+go get github.com/go-redis/redis/v8 go.mongodb.org/mongo-driver/mongo github.com/gin-gonic/gin
+
+go get github.com/gin-contrib/cors
+go get github.com/thanhpk/randstr
+go get github.com/k3a/html2text gopkg.in/gomail.v2
+go get github.com/golang-jwt/jwt
+
+คําสั่งอื่นๆที่ใช้จัดการ module มีดังนี้ครับ
+go list -m all ดู dependency ต่าง ๆ ที่ใช้งานใน module
+go get สำหรับเปลี่ยน version ของ dependency
+go mod tidy สำหรับลบ dependency ที่ไม่ได้ใช้ออกไปจาก module
+
+############################################
+Quick setup — if you’ve done this kind of thing before
+
+or	
+https://github.com/winnerboy7/golang-mongodb.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# golang-mongodb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/winnerboy7/golang-mongodb.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/winnerboy7/golang-mongodb.git
+git branch -M master
+git push -u origin master
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+############## GIT COMMAND ##################
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/winnerboy7/golang-mongodb.git
+git remote -v
+git remote --set-upstream origin 
+git push origin master
+git status
+
+git pull origin master --allow-unrelated-histories
+
